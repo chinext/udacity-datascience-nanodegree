@@ -2,7 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
-# available city data, only Chicago and new york city has Gender,Birth Year
+ """
+  available city data, only Chicago and new york city has Gender,Birth Year
+ """
 CITY_DATA = {'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
