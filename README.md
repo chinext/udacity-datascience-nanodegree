@@ -26,8 +26,8 @@ The required files for running this program are:
 
 #### Requirements
 
-This program was written in Python (version 3.8.17) and relies on the following libraries:
+This program was written in Python and relies on the following libraries:
 
-- Python 3
+- Python 3.8.17
 - numpy==1.24.3
 - pandas==1.5.3
