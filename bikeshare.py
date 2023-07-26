@@ -261,9 +261,9 @@ def main():
         else:
             print('starting analysis')
             print('-' * 50)
+            trip_duration_stats(df)
             time_stats(df)
             station_stats(df)
-            trip_duration_stats(df)
             user_stats(df)
 
             start = 0
