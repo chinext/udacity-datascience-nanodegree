@@ -17,7 +17,6 @@ FILTER_USED = "none"
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
-
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -223,6 +222,10 @@ def user_stats(df):
 
 
 def convert_seconds_days(seconds):
+    """
+    Convert seconds weeks/days/hours/minutes/seconds
+    This is much easier to read and comprehend. 
+    """
     weeks = seconds // 604800
     seconds %= 604800
     days = seconds // 86400
@@ -243,7 +246,6 @@ def convert_seconds_days(seconds):
         result += f" {minutes:.0f} minutes, "
     if seconds > 0:
         result += f" {seconds:.2f} seconds"
-
     return  result
 
 
