@@ -275,6 +275,7 @@ def main():
                         start = stop
                         stop = stop + 5
                         print(df.iloc[start:stop].to_json(orient="records"))
+                        print('-' * 40)
                         view_records = None
                 else:
                     view_records = None
